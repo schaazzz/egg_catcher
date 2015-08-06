@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <Sprite 
+      id="@drawable/eagle_sprite"
+      title="avatar"
+      num_sprites="14"
+      num_columns="14"
+      num_rows="1"
+      sprite_width="150"
+      sprite_height="150"
+      collision_width="150"
+      collision_height="150" />
+</resources>

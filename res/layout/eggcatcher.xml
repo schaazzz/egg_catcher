@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   xmlns:android="http://schemas.android.com/apk/res/android">
+    
+   <com.tinman.games.egg_catcher.GameView
+      android:id="@+id/game"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"/>
+      
+   <RelativeLayout
+      android:id="@+id/relativelayout_main"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android"  >
+      
+      <TextView
+			android:id="@+id/score_text"
+			android:text="Score: 0"
+			android:visibility="visible"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#000099"/>
+			
+      <TextView
+         android:id="@+id/eggs_text"
+         android:text="Eggs: 0"
+         android:visibility="visible"
+         android:layout_marginLeft="150dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#000099"/>
+         
+      <TextView
+         android:id="@+id/chances_text"
+         android:text="Chances: 5"
+         android:visibility="visible"
+         android:layout_marginLeft="300dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#000099"/>
+     
+      <TextView
+			android:id="@+id/time_text"
+			android:text="Time: 3"
+			android:visibility="invisible"
+			android:layout_marginLeft="450dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#000099"/>
+         
+      <TextView
+			android:id="@+id/game_over"
+			android:text="Game Over!!!"
+			android:visibility="invisible"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:gravity="center_horizontal"
+			android:textColor="#EEFFFFFF"
+			android:textSize="48sp"
+			android:textStyle="bold"/>
+         
+      <TextView
+         android:id="@+id/game_paused"
+         android:text="Game Paused, BACK to resume, MENU to exit."
+         android:visibility="invisible"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:textColor="#EEFFFFFF"
+         android:textSize="20sp"
+         android:textStyle="bold"/>
+         
+   </RelativeLayout>      
+</FrameLayout>

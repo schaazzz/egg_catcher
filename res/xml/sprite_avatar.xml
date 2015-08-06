@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <Sprite 
+      id="@drawable/avatar_sprite"
+      title="avatar"
+      num_sprites="9"
+      num_columns="9"
+      num_rows="1"
+      sprite_width="150"
+      sprite_height="131"
+      collision_width="130"
+      collision_height="100" />
+</resources>

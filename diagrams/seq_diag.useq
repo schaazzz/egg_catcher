@@ -1,0 +1,133 @@
+<sequence-diagram version="1.0.1" icons="true">  
+  <object id="1" language="java" name="com.tinman.games.egg_catcher.EggCatcher" project="egg_catcher" 
+    file="/egg_catcher/src/com/tinman/games/egg_catcher/EggCatcher.java" binary="false" label="eggCatcher" type="class" 
+    autoSize="true">    
+    <position x="91" y="0" width="-1" height="-1"/>    
+    <execution id="1">      
+      <position x="5" y="98" width="145" height="60"/>    
+    </execution>    
+    <execution id="2">      
+      <position x="5" y="250" width="145" height="60"/>    
+    </execution>    
+    <execution id="3">      
+      <position x="5" y="332" width="145" height="60"/>    
+    </execution>  
+  </object>  
+  <object id="2" language="java" name="com.tinman.games.egg_catcher.GameView" project="egg_catcher" 
+    file="/egg_catcher/src/com/tinman/games/egg_catcher/GameView.java" binary="false" label="gameView" type="class" 
+    autoSize="true">    
+    <position x="299" y="0" width="-1" height="-1"/>    
+    <execution id="1">      
+      <position x="154" y="118" width="145" height="20"/>    
+    </execution>    
+    <execution id="2">      
+      <position x="154" y="165" width="145" height="60"/>    
+    </execution>    
+    <execution id="3">      
+      <position x="154" y="270" width="145" height="20"/>    
+    </execution>    
+    <execution id="4">      
+      <position x="154" y="352" width="145" height="20"/>    
+    </execution>    
+    <execution id="5">      
+      <position x="154" y="396" width="145" height="60"/>    
+    </execution>    
+    <execution id="6">      
+      <position x="154" y="504" width="145" height="60"/>    
+    </execution>    
+    <execution id="7">      
+      <position x="154" y="598" width="145" height="60"/>    
+    </execution>    
+    <execution id="8">      
+      <position x="154" y="688" width="145" height="60"/>    
+    </execution>    
+    <execution id="9">      
+      <position x="154" y="798" width="145" height="60"/>    
+    </execution>  
+  </object>  
+  <object id="3" language="java" name="com.tinman.games.egg_catcher.GameView.GameThread" project="egg_catcher" 
+    file="/egg_catcher/src/com/tinman/games/egg_catcher/GameView.java" binary="false" label="gameThread" type="class" 
+    autoSize="true">    
+    <position x="299" y="0" width="-1" height="-1"/>    
+    <execution id="1">      
+      <position x="303" y="185" width="145" height="20"/>    
+    </execution>  
+  </object>  
+  <object id="4" language="java" name="com.tinman.games.egg_catcher.Util" project="egg_catcher" 
+    file="/egg_catcher/src/com/tinman/games/egg_catcher/Util.java" binary="false" label="util" type="class" 
+    autoSize="true">    
+    <position x="511" y="0" width="-1" height="-1"/>  
+  </object>  
+  <object id="5" language="java" name="com.tinman.games.egg_catcher.Util.AudioClip" project="egg_catcher" 
+    file="/egg_catcher/src/com/tinman/games/egg_catcher/Util.java" binary="false" label="audioClip" type="class" 
+    autoSize="true">    
+    <position x="511" y="0" width="-1" height="-1"/>    
+    <execution id="1">      
+      <position x="601" y="416" width="145" height="20"/>    
+    </execution>    
+    <execution id="2">      
+      <position x="601" y="524" width="145" height="20"/>    
+    </execution>    
+    <execution id="3">      
+      <position x="601" y="618" width="145" height="20"/>    
+    </execution>    
+    <execution id="4">      
+      <position x="601" y="708" width="145" height="20"/>    
+    </execution>    
+    <execution id="5">      
+      <position x="601" y="818" width="145" height="20"/>    
+    </execution>  
+  </object>  
+  <object id="8" language="java" name="com.tinman.games.egg_catcher.Sprite2D" project="egg_catcher" 
+    file="/egg_catcher/src/com/tinman/games/egg_catcher/Sprite2D.java" binary="false" label="sprite2D" type="class" 
+    autoSize="true">    
+    <position x="774" y="0" width="-1" height="-1"/>  
+  </object>  
+  <object id="6" language="java" name="com.tinman.games.egg_catcher.Egg" project="egg_catcher" 
+    file="/egg_catcher/src/com/tinman/games/egg_catcher/Egg.java" binary="false" label="egg" type="class" 
+    autoSize="true">    
+    <position x="777" y="0" width="-1" height="-1"/>  
+  </object>  
+  <object id="7" language="java" name="com.tinman.games.egg_catcher.Bird" project="egg_catcher" 
+    file="/egg_catcher/src/com/tinman/games/egg_catcher/Bird.java" binary="false" label="bird" type="class" 
+    autoSize="true">    
+    <position x="980" y="0" width="-1" height="-1"/>  
+  </object>  
+  <message operation="GameView(android.content.Context,android.util.AttributeSet)">    
+    <end type="SOURCE" nodeId="1" messageNodeId="0"/>    
+    <end type="TARGET" nodeId="2" messageNodeId="0"/>  
+  </message>  
+  <message 
+    operation="setTextViews(android.widget.TextView,android.widget.TextView,android.widget.TextView,android.widget.TextView,android.widget.TextView,android.widget.TextView): void">    
+    <end type="SOURCE" nodeId="1" messageNodeId="1"/>    
+    <end type="TARGET" nodeId="2" messageNodeId="2"/>  
+  </message>  
+  <message operation="getThread(): GameThread">    
+    <end type="SOURCE" nodeId="1" messageNodeId="2"/>    
+    <end type="TARGET" nodeId="2" messageNodeId="3"/>  
+  </message>  
+  <message operation="GameThread(android.os.Handler)">    
+    <end type="SOURCE" nodeId="2" messageNodeId="1"/>    
+    <end type="TARGET" nodeId="3" messageNodeId="0"/>  
+  </message>  
+  <message operation="AudioClip(android.content.Context,int)">    
+    <end type="SOURCE" nodeId="2" messageNodeId="4"/>    
+    <end type="TARGET" nodeId="5" messageNodeId="0"/>  
+  </message>  
+  <message>    
+    <end type="SOURCE" nodeId="2" messageNodeId="5"/>    
+    <end type="TARGET" nodeId="5" messageNodeId="1"/>  
+  </message>  
+  <message>    
+    <end type="SOURCE" nodeId="2" messageNodeId="6"/>    
+    <end type="TARGET" nodeId="5" messageNodeId="2"/>  
+  </message>  
+  <message>    
+    <end type="SOURCE" nodeId="2" messageNodeId="7"/>    
+    <end type="TARGET" nodeId="5" messageNodeId="3"/>  
+  </message>  
+  <message>    
+    <end type="SOURCE" nodeId="2" messageNodeId="8"/>    
+    <end type="TARGET" nodeId="5" messageNodeId="4"/>  
+  </message>
+</sequence-diagram>

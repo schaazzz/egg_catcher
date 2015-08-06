@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--AgileJ Ltd. (http://www.agilej.com)-->
+<ajsv>
+    <diagram style="defaultDiagramStyle" version="1.7.3.v20110116-2128">
+        <class className="com.tinman.games.egg_catcher.GameView" project="egg_catcher" xLocation="1359" yLocation="-99"/>
+        <class className="com.tinman.games.egg_catcher.EggCatcher" project="egg_catcher" xLocation="670" yLocation="1042"/>
+        <class className="com.tinman.games.egg_catcher.Util" project="egg_catcher" xLocation="2962" yLocation="383"/>
+        <class className="com.tinman.games.egg_catcher.Sprite2D" project="egg_catcher" xLocation="585" yLocation="-3"/>
+        <class className="com.tinman.games.egg_catcher.SplashScreen" project="egg_catcher" xLocation="3470" yLocation="717"/>
+        <class className="com.tinman.games.egg_catcher.StartDialog" project="egg_catcher" xLocation="2968" yLocation="1044"/>
+    </diagram>
+</ajsv>

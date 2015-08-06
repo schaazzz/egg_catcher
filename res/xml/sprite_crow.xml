@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <Sprite 
+      id="@drawable/crow_sprite"
+      title="avatar"
+      num_sprites="8"
+      num_columns="8"
+      num_rows="1"
+      sprite_width="90"
+      sprite_height="98"
+      collision_width="90"
+      collision_height="98" />
+</resources>
